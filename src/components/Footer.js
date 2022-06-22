@@ -2,7 +2,7 @@ import "./FooterStyle.css"
 
 import React from 'react'
 
-import { FaFacebook, FaHome, FaInstagram, FaLinkedin, FaMailBulk, FaPhone, FaTwitter, FaYoutube } from "react-icons/fa"
+import { FaFacebook, FaGithub, FaHome, FaInstagram, FaLinkedin, FaMailBulk, FaPhone, FaTwitter, } from "react-icons/fa"
 
 const Footer = () => {
   return (
@@ -40,7 +40,7 @@ I am independently motivated, yet I appreciate team efforts and collaborate prod
 <FaTwitter size={30} style={{ color: "#fff", marginRight: "1rem"}}/>
 <FaLinkedin size={30} style={{ color: "#fff", marginRight: "1rem"}}/>
 <FaInstagram size={30} style={{ color: "#fff", marginRight: "1rem"}}/>
-<FaYoutube size={30} style={{ color: "#fff", marginRight: "1rem"}}/>
+<FaGithub size={30} style={{ color: "#fff", marginRight: "1rem"}}/>
   
 </div>
         </div>
